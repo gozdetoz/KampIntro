@@ -10,7 +10,7 @@ namespace DegerVeReferansTipler
             //int decimal, float,double ,bool değer tiptir .Değer tip olanlar stack de gerceklesir
 
             //array,interface vb. referans tiptir  //referans tipler heap de tutulur 
-
+            //
             int sayi1 = 10;
             int sayi2 = 30;
             sayi1 = sayi2;
