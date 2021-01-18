@@ -10,6 +10,8 @@ namespace ClassIntro
             string adi = "Engin";
             int yas = 27;
 
+            Console.WriteLine(adi + " - " + yas);
+
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "C#";
             kurs1.Egitmen = "Engin Demirog";
@@ -41,4 +43,5 @@ namespace ClassIntro
         public string Egitmen { get; set; }
         public int IzlenmeOrani { get; set; }
     }
+   
 }
