@@ -12,7 +12,7 @@ namespace GenericsIntro
         {
             items = new T[0];
         }
-        public void Add( T item) 
+        public void Add(T item)
         {
             T[] tempArray = items;//gecici dizinin referansını items ın referansı yap .Boylelıkle elımızdekı elemenalrımız kaybolmuyor
             items = new T[items.Length + 1];
@@ -22,7 +22,8 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;
 
-        }
+        } 
+ 
 
     }
 }
