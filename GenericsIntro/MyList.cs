@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Security.Cryptography;
+using System.IO;
 
 namespace GenericsIntro
 {
@@ -22,8 +24,7 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;
 
-        } 
- 
-
+        }
+     
     }
 }
